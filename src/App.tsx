@@ -1,13 +1,12 @@
-import './App.css'
-import Basics from './pages/VideoCall'
+import "./App.css";
+import VideoClass from "./pages/VideoCall";
 
 function App() {
-
   return (
-   <div>
-    <Basics/>
-   </div>
-  )
+    <>
+      <VideoClass />
+    </>
+  );
 }
 
-export default App
+export default App;

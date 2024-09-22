@@ -4,9 +4,6 @@ import AgoraRTC, { AgoraRTCProvider } from "agora-rtc-react";
 import App from './App.tsx'
 import './index.css'
 
-// const rootElement = document.getElementById("root");
-// const root = createRoot(rootElement);
-
 const client = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
 
 createRoot(document.getElementById('root')!).render(
